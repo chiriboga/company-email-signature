@@ -1,6 +1,6 @@
 # Company Wide Email Signature Application
 
-* Company Wide Email Signature
+* Multi-lingual Company Wide Email Signature application. 
 
 ## Dependencies
 * HTML
