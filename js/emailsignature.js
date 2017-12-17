@@ -1,3 +1,19 @@
+var clipboard = new Clipboard('#copy-button', {
+    target: function() {
+        return document.querySelector('#my_email_signature');
+    }
+});
+
+clipboard.on('success', function(e) {
+    console.log(e);
+});
+
+clipboard.on('error', function(e) {
+    console.log(e);
+});
+
+
+
 var myApp = angular.module('myApp',['ngSanitize']);
 
 myApp.controller('language_switch', function($scope) {
