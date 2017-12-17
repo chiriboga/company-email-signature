@@ -19,7 +19,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.6/angular.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-translate/2.8.0/angular-translate.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.0-beta.0/angular-sanitize.min.js"></script>
-    <script src="js/ZeroClipboard.min.js"></script>
+    <script src="js/clipboard.min.js"></script>
 </head>
 <body ng-app="myApp" ng-controller="language_switch">
 
@@ -105,7 +105,8 @@
                 </form>
             </div>
             <div class="col-md-7">
-                <button id="copy-button" class="pull-right btn btn-info btn-default" data-clipboard-target="my_email_signature" title="Click me to copy to clipboard.">{{t_copy_me_text}}</button>
+                <!-- <button id="copy-button" class="pull-right btn btn-info btn-default" data-clipboard-target="my_email_signature" title="Click me to copy to clipboard.">{{t_copy_me_text}}</button> -->
+                <button class="pull-right btn btn-info btn-default" data-clipboard-action="copy" data-clipboard-target="#my_email_signature">{{t_copy_me_text}}</button>
                 <div class="clearfix"></div>
                 <div style="outline:1px dashed #ccc;margin:10px 0 0 0;padding:5px;font-family:arial; font-size:12px;">
                     <div id="my_email_signature">
