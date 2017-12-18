@@ -8,4 +8,4 @@
 * Angular 1.4.6
 
 # Demo
-http://richardchiriboga.com/emailsignature/
+http://richardchiriboga.com/company-email-signature/
