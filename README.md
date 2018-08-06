@@ -1,3 +1,6 @@
+![alt text](company-email-signature.png "Company Email Signature")
+
+
 # Company Wide Email Signature Application
 
 * Multi-lingual Company Wide Email Signature application. 
